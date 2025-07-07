@@ -1,7 +1,5 @@
 services:
   - type: static
     name: chatfront
-    env: node
     buildCommand: npm run build
-    startCommand: serve -s build
     staticPublishPath: build
