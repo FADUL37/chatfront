@@ -1,5 +1,2 @@
-services:
-  - type: static
-    name: chatfront
-    buildCommand: npm run build
-    staticPublishPath: build
+buildCommand: 'npm install && npm run build'
+startCommand: 'npm start'
